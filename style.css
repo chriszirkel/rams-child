@@ -1,0 +1,143 @@
+/*
+Theme Name: Rams Child Theme
+Description: Rams Child Theme
+Author: CZ
+Author URI: chris.zirkel.me
+Template: rams
+Version: 1.0
+Tags:
+*/
+
+.blog-title {
+    text-align: center;
+}
+
+.sidebar-inner {
+    padding: 6% 40px;
+    text-align: center;
+    flex: 1;
+}
+
+.sidebar-footer {
+    margin: 6% 0;
+    text-align: center;
+    font-size: 13px;
+    color: rgba( 255, 255, 255, 0.25 );
+}
+
+.sidebar-footer a {
+    color: rgba( 255, 255, 255, 0.3 );
+}
+
+.sidebar-footer a:hover {
+    color: #fff;
+}
+
+.sidebar {
+    padding: 0;
+    box-shadow: 5px 0px 20px 1px rgba(0,0,0,0.25);
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.main-menu {
+    margin-top: 30px;
+}
+
+.main-menu ul {
+    display:inline-table;
+}
+
+.main-menu li {
+    text-align: center;
+    display:inline;
+}
+
+.mobile-menu li {
+    text-align: center;
+}
+
+.social-menu {
+    display: block;
+    text-align:center;
+    margin-top: 30px;
+}
+
+.social-menu a {
+    color: rgba( 255, 255, 255, 0.6 );
+}
+
+.social-menu a:hover {
+    color: #fff;
+}
+
+.social-menu li {
+    display: inline-block;
+}
+
+.social-item {
+    margin: 0 5px;
+}
+
+.social-icon {
+    display: block;
+    font-size: 2em;
+}
+
+.legal {
+    font-size: 13px;
+    color: #fff;
+    color: rgba( 255, 255, 255, 0.25 );
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.legal a {
+    color: rgba( 255, 255, 255, 0.3 );
+}
+
+.legal a:hover {
+    color: #fff;
+}
+
+@media (max-width: 930px) {
+    .blog-logo {
+        display: none;
+    }
+
+    .blog-title {
+        margin: 0;
+    }
+
+    .sidebar {
+        padding: 0;
+        box-shadow: 5px 0px 20px 1px rgba(0,0,0,0.25);
+
+        display: block;
+        min-height: 0;
+    }
+
+    .sidebar-inner {
+        flex: none;
+    }
+
+    .sidebar-footer {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .main-menu {
+        display: block;
+    }
+
+   .mobile-menu {
+       display: none;
+   }
+}
