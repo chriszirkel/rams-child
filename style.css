@@ -86,22 +86,8 @@ Tags:
     font-size: 2em;
 }
 
-.legal {
-    font-size: 13px;
-    color: #fff;
-    color: rgba( 255, 255, 255, 0.25 );
-    position: fixed;
-    bottom: 10px;
-    left: 50%;
-    transform: translate(-50%, 0%);
-}
-
-.legal a {
-    color: rgba( 255, 255, 255, 0.3 );
-}
-
-.legal a:hover {
-    color: #fff;
+.post-meta {
+    display: none;
 }
 
 @media (max-width: 930px) {

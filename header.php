@@ -75,24 +75,24 @@
 
 				 </ul>
 
-				 <ul class="social-menu">
+				<ul class="social-menu">
 				    <li class="social-item">
-				    <a href="http://twitter.com/@chriszirkel" title="@chriszirkel on Twitter" target="_blank">
+				        <a href="http://twitter.com/@chriszirkel" title="@chriszirkel on Twitter" target="_blank">
                           <i class="social-icon fi-social-twitter"></i></li>
                         </a>
 
-				    <li class="social-item"><a href="#" title="+ChrisZirkel" target="_blank">
-                              <i class="social-icon fi-social-google-plus"></i>
-                            </a>
-
-                            </li>
+				    <li class="social-item">
+				        <a href="https://plus.google.com/u/0/108179629253525670010" title="+ChrisZirkel" target="_blank">
+                            <i class="social-icon fi-social-google-plus"></i>
+                        </a>
+                    </li>
 
 				    <li class="social-item">
-				    <a href="http://github.com/chriszirkel" title="@chriszirkel on GitHub" target="_blank">
+				        <a href="http://github.com/chriszirkel" title="@chriszirkel on GitHub" target="_blank">
                            <i class="social-icon fi-social-github"></i>
                         </a>
-				   </li>
-				 </ul>
+				    </li>
+				</ul>
 
 				 <div class="clear"></div>
 
